@@ -49,6 +49,7 @@ class Home extends Component {
   }
 
   readProducts(page) {
+    console.log("read products")
     const { dispatch } = this.props;
     dispatch(fetchProducts({
       page,

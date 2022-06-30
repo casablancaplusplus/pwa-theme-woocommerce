@@ -15,6 +15,8 @@ import Search from './views/Search';
 
 import './index.css';
 
+
+
 render(
   <Provider store={store}>
     <HashRouter>
@@ -33,4 +35,4 @@ render(
   document.getElementById('root'),
 );
 
-registerServiceWorker();
+// registerServiceWorker();
